@@ -1,0 +1,47 @@
+body {
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #6495ed;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    background-color: #83a9f1;
+    color: chocolate;
+}
+
+.dropdown {
+    background-color: #6495ed;
+    padding: 12px;
+}
